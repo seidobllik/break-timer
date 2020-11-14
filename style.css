@@ -1,0 +1,40 @@
+.timer {
+  display: flex;
+  justify-content:center;
+  align-content: center;
+  margin-top: 100px;
+}
+
+#main-section {
+  background: lightgray;
+  max-width: 200px;
+}
+
+#menu-section {
+  background: gray;
+  max-width: 200px;
+}
+
+.controls-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 5px;
+}
+
+.controls-container * {
+  margin: 5px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#timer-label {
+  font-size: 30px;
+  font-weight: bold;
+}
